@@ -1,7 +1,7 @@
 # 📄 Anonymized LaTeX Résumé Template  
 
 [![LaTeX](https://img.shields.io/badge/LaTeX-Template-blue?logo=latex&logoColor=white)](https://www.latex-project.org/)
-[![PDF](https://img.shields.io/badge/Preview-PDF-success?logo=adobeacrobatreader&logoColor=white)](./resume_placeholders_final.pdf)
+[![PDF](https://img.shields.io/badge/Preview-PDF-success?logo=adobeacrobatreader&logoColor=white)](./resume_Template.pdf)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A **completely anonymized and modular LaTeX résumé** built with `tcolorbox`, `tabularx`, and minimalist design principles — perfect for professionals who want a clean résumé layout without revealing personal data.
@@ -125,10 +125,9 @@ This project is released under the **MIT License** — free for use, modificatio
 
 ## 💬 Author
 
-**Created and anonymized with the help of ChatGPT (OpenAI GPT-5)**  
-Maintained by: *Your Username*  
-📍 Location: *Your City, Your Country*  
-✉️ Email: [your.email@example.com](mailto:your.email@example.com)  
+  
+Published by: hullterminator  
+ 
 
 ---
 
