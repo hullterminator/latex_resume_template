@@ -1,0 +1,325 @@
+
+\documentclass[10pt]{extarticle}
+\usepackage[margin=0.2in]{geometry}
+\usepackage[most]{tcolorbox}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage[hidelinks]{hyperref}
+\usepackage{array}
+\usepackage{tabularx}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+
+% Compact bullets globally
+\setlist[itemize]{noitemsep, topsep=0pt}
+
+% Canvas-style section box
+\tcbset{
+  enhanced,
+  frame code={},
+  center title,
+  left=4pt,
+  right=4pt,
+  top=4pt,
+  bottom=4pt,
+  colback=white,
+  colframe=black,%!30,
+  width=\dimexpr\textwidth\relax,
+  enlarge left by=0mm,
+  boxsep=3pt,
+  arc=2pt,outer arc=2pt,
+  title filled,
+  coltitle=black,
+  fonttitle=\large\bfseries,
+  colbacktitle=gray!20,
+}
+
+\begin{document}
+
+% Header
+\begin{flushleft}
+  {\huge\textbf{Candidate A}}
+\end{flushleft}
+Role A \hfill \textbf{Email:} \href{mailto:your.email@example.com}{your.email@example.com}\\
+Your City, Your Country \hfill \textbf{Phone:} +91-0000000000\\
+\textbf{LinkedIn:} \href{https://linkedin.com/in/yourusername}{linkedin.com/in/yourusername} \hfill \textbf{GitHub:} \href{https://github.com/yourusername}{github.com/yourusername}
+
+\vspace{2pt}
+
+% ---------------------------------------------Summary----------------------------------------
+\begin{tcolorbox}[title=Professional Summary, breakable]
+\begin{itemize}[leftmargin=5mm,label=\textbullet]
+  \item Professional specializing in Area A, Area B, Area C, and Area D; \textbf{delivers from phase A to phase B with method A}, method B, and delivery A.%
+  \item Recognized in competitions A, B, and C; winner, Award A, Award B and Award C.%
+\end{itemize}
+\end{tcolorbox}
+
+% ----------------------------------------------Education -----------------------------------------
+\begin{tcolorbox}[title=Education, breakable]
+\begin{tabularx}{\linewidth}{|P{2.8cm}|L|P{1.8cm}|}
+\hline
+\textbf{Year} & \textbf{Degree/Certificate} & \textbf{CPI/\%} \\
+\hline
+01 Jan 2021 -- 01 Jan 2021 & Degree A (Discipline A) & 82.6 \\
+\hline
+01 Jan 2021 -- 01 Jan 2021 & Qualification A (Stream A) & 65 \\
+\hline
+01 Jan 2021 -- 01 Jan 2021 & Qualification B (Subjects A) & 9.5 \\
+\hline
+\end{tabularx}
+\end{tcolorbox}
+
+% --------------------------------Technical Skills-------------------------------------
+\begin{tcolorbox}[title=Technical Skills, breakable]
+\begin{itemize}[leftmargin=5mm,label=\textbullet]
+  \item \textbf{Category A:} Tool A, Tool B, Tool C; Activity A, Activity B.%
+  \item \textbf{Category B:} Tool D, Tool E; Protocol A, Method A.%
+  \item \textbf{Category C:} Language A, Language B, Language C.%
+  \item \textbf{Category D:} Platform A, Platform B, Platform C, Platform D.%
+  \item \textbf{Category E:} Interface A, Interface B, Interface C; Capability A and Validation A.%
+  \item \textbf{Category F:} Simulator A, Simulator B, Simulator C, Simulator D; Modeling A and Validation B.%
+  \item \textbf{Category G:} Equipment A, Equipment B, Equipment C; Skill A (Component A).%
+\end{itemize}
+\end{tcolorbox}
+
+%-------------------------------------------------- Experience--------------------------------------------
+\begin{tcolorbox}[title=Experience, breakable]
+\begin{itemize}[leftmargin=2mm,label={}]
+\item \textbf{Role A} \hfill \textit{\textbf{Organization A, Location A}} \hfill \textit{01 Jan 2021 -- 01 Jan 2021}
+
+\begin{itemize}[leftmargin=4mm,label=\textbullet]
+\item \textbf{Project A}
+    \begin{itemize}[leftmargin=5mm, label=-]
+        \item Designed and developed system A including phase A, phase B, and component integration.%
+        \item Executed \textbf{routine A and configured parameter A} to ensure correct startup behavior.%
+        \item Performed primary communication testing over \textbf{Interface A}, validating integrity A, accuracy A, and robust operation A.%
+        \item Conducted troubleshooting and \textbf{refinements A} to achieve stable and reliable performance under condition A.%
+    \end{itemize}
+\end{itemize}
+
+\begin{itemize}[leftmargin=4mm,label=\textbullet]
+\item \textbf{Project B}
+    \begin{itemize}[leftmargin=5mm, label=-]
+        \item \textbf{Led a team A}, taking ownership of design A and integration A for system A.%
+        \item Collaborated with team A and team B, along with member A, to test and validate functionality across module A.%
+        \item Integrated a gateway A to collect real-time data A and enable preventive actions, including notification A and trigger A.%
+        \item Defined architecture A, conducted review A, and established milestone A to ensure timely and reliable execution.%
+    \end{itemize}
+\end{itemize}
+
+\begin{itemize}[leftmargin=4mm,label=\textbullet]
+\item \textbf{Project C}
+    \begin{itemize}[leftmargin=5mm, label=-]
+        \item Set up environment A and developed case A for validation A, in collaboration with senior member A.%
+        \item Implemented \textbf{automation A} by writing \textbf{Language A scripts and Language B code} for board A to streamline testing A.%
+        \item Diagnosed and isolated issue A by selectively modifying device A on line A, identifying root cause A with guidance from senior member B.%
+        \item Executed \textbf{modification A to resolve fault A}, ensuring reliable operation A and successful completion A.%
+    \end{itemize}
+\end{itemize}
+
+\begin{itemize}[leftmargin=4mm,label=\textbullet]
+\item \textbf{Project D}
+    \begin{itemize}[leftmargin=5mm, label=-]
+        \item Streamed data A over interface A using firmware A and integrated device A for processing A.%
+        \item Implemented \textbf{calculation A} on device A and transmitted data A securely to \textbf{cloud A}.%
+        \item Collaborated with team A to enable visualization A through UI A, ensuring accurate and accessible monitoring A.%
+        \item Enhanced speed A and security A by implementing \textbf{format A over protocol A}, optimizing \textbf{communication A}.%
+    \end{itemize}
+\end{itemize}
+
+\begin{itemize}[leftmargin=4mm,label=\textbullet]
+\item \textbf{Project E}
+    \begin{itemize}[leftmargin=5mm, label=-]
+        \item \textbf{Designed and executed setup A}, managing cycle A and logging data using system A.%
+        \item Assisted in \textbf{calculating parameter A via method A} and cross-verified measurement A using meter A.%
+        \item Developed \textbf{plan A} with team A to ensure evaluation A and accurate result A.%
+        \item Supported analysis A and reporting A, enabling informed decision A for application A.%
+    \end{itemize}
+\end{itemize}
+
+\begin{itemize}[leftmargin=4mm,label=\textbullet]
+\item \textbf{Project F}
+    \begin{itemize}[leftmargin=5mm, label=-]
+        \item Developed system A consisting of transmitter A and receiver A with decoder A, built without tool A.%
+        \item Used \textbf{IDE A}, \textbf{Device A}, and \textbf{Transceiver A} to implement and test communication A.%
+        \item Designed hardware A, schematic A, and layout A to build training kit A for demonstration A.%
+        \item Performed validation A and debugging A using instrument A to ensure stable and accurate transmission A.%
+    \end{itemize}
+\end{itemize}
+
+\begin{itemize}[leftmargin=4mm,label=\textbullet]
+\item \textbf{Project G}
+    \begin{itemize}[leftmargin=5mm, label=-]
+        \item Designed kit A including schematic A and layout A in tool A.%
+        \item \textbf{Diagnosed and resolved issue A on rail A} by performing measurement A with instrument A.%
+        \item Identified and mitigated detection issue A by proposing converter A to supply voltage A, enabling proper regulation A.%
+        \item Completed design A, validation A, and documentation A, ensuring reliability A for purpose A.%
+    \end{itemize}
+\end{itemize}
+
+\begin{itemize}[leftmargin=4mm,label=\textbullet]
+\item \textbf{Project H}
+    \begin{itemize}[leftmargin=5mm, label=-]
+        \item \textbf{Developed schematic A} in tool A based on requirement A and specification A.%
+        \item Selected controller A, driver A, PMIC A, and component A to fulfill criterion A.%
+        \item Delivered design A, ready for layout A and prototype A.%
+    \end{itemize}
+\end{itemize}
+
+\begin{itemize}[leftmargin=4mm,label=\textbullet]
+\item \textbf{Role B – (Unit A)}
+    \begin{itemize}[leftmargin=5mm, label=-]
+        \item \textbf{Conducted session A} for learner A in concept A, including design A, implementation A, and simulation A.%
+        \item Guided learner A through workflow A and process A, fostering skill A and readiness A.%
+        \item Developed material A and exercise A to enhance comprehension A and engagement A.%
+    \end{itemize}
+\end{itemize}
+
+\noindent\rule{\linewidth}{1pt}
+
+\item \textbf{Role B} \hfill \textit{\textbf{Organization B, Location B}} \hfill \textit{01 Jan 2021 -- 01 Jan 2021}
+
+\begin{itemize}[leftmargin=4mm,label=\textbullet]
+\item \textbf{Project I}
+    \begin{itemize}[leftmargin=5mm, label=-]
+        \item Designed system A integrated with interface A, feature A, and interface B.%
+        \item Translated \textbf{requirement A into design A}, ensuring alignment with goal A.%
+        \item Delivered design A and development A, enabling reliability A and interaction A.%
+        \item Ensured \textbf{\textcolor{blue}{Standard A compliance}}, implementing strategy A for immunity A and integrity A.%
+    \end{itemize}
+\end{itemize}
+
+\begin{itemize}[leftmargin=4mm,label=\textbullet]
+\item \textbf{Project J}
+    \begin{itemize}[leftmargin=5mm, label=-]
+        \item \textbf{Designed module A, module B, and module C for system A}.%
+        \item Assembled and integrated module A to enable bring-up A and testing A.%
+        \item Supported development A and validation A to ensure stable operation A and compatibility A.%
+    \end{itemize}
+\end{itemize}
+
+\begin{itemize}[leftmargin=4mm,label=\textbullet]
+\item \textbf{Project K}
+    \begin{itemize}[leftmargin=5mm, label=-]
+        \item Performed assembly A, bring-up A, and testing A of product A during week A.%
+        \item Identified and resolved integration issue A to ensure performance A and interaction A prior to presentation A.%
+        \item Successfully \textbf{delivered demonstration A}, showcasing functionality A, quality A, and responsiveness A.%
+    \end{itemize}
+\end{itemize}
+
+\begin{itemize}[leftmargin=4mm,label=\textbullet]
+\item \textbf{Responsibility A}
+    \begin{itemize}[leftmargin=5mm, label=-]
+        \item Managed sourcing A and procurement A for project A, ensuring availability A of part A.%
+        \item Performed \textbf{assembly A and bring-up A} for board A, preparing and following checklist A.%
+        \item Conducted \textbf{validation A and verification A} to ensure compliance A with specification A and target A.%
+        \item Executed precision \textbf{soldering A of component A}, enabling prototype A.%
+    \end{itemize}
+\end{itemize}
+
+\noindent\rule{\linewidth}{1pt}
+
+\item \textbf{Role C (intern)} \hfill \textit{\textbf{Organization C, Location C}} \hfill \textit{01 Jan 2021 -- 01 Jan 2021}
+
+\begin{itemize}[leftmargin=4mm,label=\textbullet]
+\item \textbf{Project L}
+    \begin{itemize}[leftmargin=5mm, label=-]
+        \item Contributed to \textbf{development A} by assisting in development A, assembly A, and repair A of prototype A.%
+        \item Developed and executed plan A to validate performance A and stability A.%
+        \item Implemented technique A, improving metric A from value A to value B.%
+        \item Optimized design A to enhance efficiency A and support stability A under condition A.%
+    \end{itemize}
+\end{itemize}
+
+\begin{itemize}[leftmargin=4mm,label=\textbullet]
+\item \textbf{Project M}
+    \begin{itemize}[leftmargin=5mm, label=-]
+        \item Assisted in assembly A, ensuring alignment A and integrity A.%
+        \item \textbf{Conducted test A} to evaluate parameter A, parameter B, and performance A under condition A.%
+        \item Supported tuning A and optimization A using controller A and tool A.%
+        \item Collaborated with team A to ensure integration A between hardware A and control A.%
+    \end{itemize}
+\end{itemize}
+
+\begin{itemize}[leftmargin=4mm,label=\textbullet]
+\item \textbf{Project N}
+    \begin{itemize}[leftmargin=5mm, label=-]
+        \item Designed and developed logger A using controller A integrated with display A for monitoring A.%
+        \item Implemented \textbf{visual element A including animated logo A} and real-time indicator A with color-coded feedback A.%
+        \item Enabled \textbf{on-screen configuration A and real-time manipulation A}, enhancing control A and usability A.%
+        \item Delivered system A, combining visual A with reliable logging A.%
+    \end{itemize}
+\end{itemize}
+
+\end{itemize}
+\end{tcolorbox}
+
+% ---------------------------------Projects---------------------------------------
+\begin{tcolorbox}[title=Projects, breakable]
+\begin{itemize}[leftmargin=5mm,label={}]
+\item \textbf{Project O} \hfill \textit{Jan 2021}
+\begin{itemize}[leftmargin=5mm,label=\textbullet]
+  \item Developed system A using controller A and firmware A; control A with safety A and selection A.%
+  \item \textbf{Applications}: Application A, Application B, Application C, and Application D; converts input A to output A.%
+  \item Documentation: \href{https://example.com/placeholder}{\textbf{Link}}.%
+\end{itemize}
+
+\item \textbf{Project P} \hfill \textit{Jan 2021}
+\begin{itemize}[leftmargin=5mm,label=\textbullet]
+    \item Designed and developed tester A with \textbf{control A}.%
+    \item Implemented \textbf{calibration A and estimation A, along with calculation A} using \textbf{method A}.%
+    \item Integrated display A for visualization A and parameter modification A.%
+    \item Enabled \textbf{workflow A} with control A over parameter A and sequencing A, improving efficiency A and reliability A.%
+\end{itemize}
+\end{itemize}
+\end{tcolorbox}
+
+% -----------------------------------------------Competitions---------------------------------------------
+\begin{tcolorbox}[title=Competitions \& Challenges, breakable]
+\begin{itemize}[leftmargin=5mm,label={}]
+\item \textbf{Competition A} \hfill \textit{Jan 2021 -- Jan 2021}
+\begin{itemize}[leftmargin=5mm,label=\textbullet]
+  \item Selected from participant A; awarded kit A.%
+  \item Developing solution A using driver A, transducer A, and device A.%
+  \item Leveraging edge A and sensor A to monitor item A and adjust parameter A.%
+\end{itemize}
+
+\item \textbf{Competition B} \hfill \textit{Jan 2021 -- Jan 2021}
+\begin{itemize}[leftmargin=5mm,label=\textbullet]
+  \item Idea selected for development on platform A.%
+  \item Robot A with mapping A via sensor A and vision A; simultaneous mapping A and path A.%
+\end{itemize}
+
+\item \textbf{Competition C} \hfill \textit{Jan 2021 -- Jan 2021}
+\begin{itemize}[leftmargin=5mm,label=\textbullet]
+  \item Implemented method A for system A using controller A as controller B; deepened understanding A.%
+\end{itemize}
+
+\item \textbf{Competition D — Winner} \hfill \textit{Jan 2021}
+\begin{itemize}[leftmargin=5mm,label=\textbullet]
+  \item Solution A from material A to reduce metric A; feature A and durable A with lighting A for application A.%
+  \item Winner for Jan 2021, Jan 2021 \& Jan 2021.%
+\end{itemize}
+\end{itemize}
+\end{tcolorbox}
+
+% Certifications
+\begin{tcolorbox}[title=Certifications, breakable]
+\begin{itemize}[leftmargin=5mm,label=\textbullet]
+  \item Certification A (Jan 2021).%
+  \item Certification B; Certification C; Certification D (Jan 2021).%
+  \item Certification E; Certification F; Certification G (Jan 2021).%
+  \item Certification H; Certification I; Workshop A (Jan 2021).%
+  \item Certification J (Jan 2021).%
+\end{itemize}
+\end{tcolorbox}
+
+% Interests
+\begin{tcolorbox}[title=Interests, breakable]
+\begin{itemize}[leftmargin=5mm,label=\textbullet]
+  \item Interest A, Interest B, Interest C, Interest D, Interest E.%
+\end{itemize}
+\end{tcolorbox}
+
+\end{document}
